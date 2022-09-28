@@ -15,8 +15,8 @@ import re
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util import formatting, web
+from botplug import hook
+from botplug.util import formatting, web
 
 # CONSTANTS
 

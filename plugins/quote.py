@@ -15,8 +15,8 @@ from sqlalchemy import (
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.types import REAL
 
-from cloudbot import hook
-from cloudbot.util import database
+from botplug import hook
+from botplug.util import database
 
 qtable = Table(
     "new_quote",

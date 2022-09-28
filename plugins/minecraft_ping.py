@@ -3,8 +3,8 @@ import socket
 from mcstatus import MinecraftServer
 from mcstatus.pinger import PingResponse
 
-from cloudbot import hook
-from cloudbot.util import colors
+from botplug import hook
+from botplug.util import colors
 
 DEFAULT_SERVER = "minecraft.dot.org.es"
 

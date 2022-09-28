@@ -15,8 +15,8 @@ License:
 
 import requests
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 API_URL = "http://octopart.com/api/v3/parts/search"
 

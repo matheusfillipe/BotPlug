@@ -2,8 +2,8 @@ import json
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util import formatting
+from botplug import hook
+from botplug.util import formatting
 
 
 @hook.command()

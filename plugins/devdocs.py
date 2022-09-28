@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 from fuzzywuzzy import process
 from natsort import natsorted
 
-from cloudbot import hook
-from cloudbot.util.formatting import truncate_str
+from botplug import hook
+from botplug.util.formatting import truncate_str
 
 
 @dataclass

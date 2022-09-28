@@ -2,8 +2,8 @@ import requests
 from requests import HTTPError
 from rotten_tomatoes_scraper.rt_scraper import MovieScraper
 
-from cloudbot import hook
-from cloudbot.util import web
+from botplug import hook
+from botplug.util import web
 
 api_root = 'http://api.rottentomatoes.com/api/public/v1.0/'
 movie_search_url = api_root + 'movies.json'

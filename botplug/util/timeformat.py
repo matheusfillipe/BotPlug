@@ -44,8 +44,8 @@ License:
 
 import datetime
 
-from cloudbot.util import formatting
-from cloudbot.util.formatting import pluralize_select
+from botplug.util import formatting
+from botplug.util.formatting import pluralize_select
 
 
 def time_since(d, now=None, count=2, accuracy=6, simple=False):

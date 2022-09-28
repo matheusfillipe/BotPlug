@@ -4,8 +4,8 @@ import re
 import requests
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util.http import parse_soup
 
 xkcd_re = re.compile(r"(.*:)//(www.xkcd.com|xkcd.com)(.*)", re.I)
 

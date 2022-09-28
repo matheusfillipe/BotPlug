@@ -7,8 +7,8 @@ from forecastiopy.ForecastIO import ForecastIO
 from googlemaps.exceptions import ApiError
 from sqlalchemy import Column, PrimaryKeyConstraint, String, Table
 
-from cloudbot import hook
-from cloudbot.util import colors, database, web
+from botplug import hook
+from botplug.util import colors, database, web
 
 Api = Optional[googlemaps.Client]
 

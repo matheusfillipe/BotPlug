@@ -15,8 +15,8 @@ from sqlalchemy import (
 )
 from sqlalchemy.sql.base import Executable
 
-from cloudbot import hook
-from cloudbot.util import database
+from botplug import hook
+from botplug.util import database
 
 karmaplus_re = re.compile(r"^.*\+\+$")
 karmaminus_re = re.compile("^.*--$")

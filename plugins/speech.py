@@ -11,8 +11,8 @@ import requests
 
 import validators
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 API = bot.config["plugins"]["speech"]["api"]
 headers = {"Authorization": "Bearer " + bot.config.get_api_key("speech", "")}

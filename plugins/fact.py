@@ -1,7 +1,7 @@
 import random
 
-from cloudbot import hook
-from cloudbot.util import http
+from botplug import hook
+from botplug.util import http
 
 types = ["trivia", "math", "date", "year"]
 

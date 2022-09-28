@@ -1,8 +1,8 @@
 from re import findall
 from typing import Dict
 
-from cloudbot import hook
-from cloudbot.util.formatting import get_text_list
+from botplug import hook
+from botplug.util.formatting import get_text_list
 
 polls: Dict[str, "Poll"] = {}
 

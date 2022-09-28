@@ -1,7 +1,7 @@
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
+from botplug import hook
 
 
 def get_data(url, reply, bot, params=None):

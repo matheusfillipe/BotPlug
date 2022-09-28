@@ -5,8 +5,8 @@ from datetime import datetime
 
 import tweepy
 
-from cloudbot import hook
-from cloudbot.util import timeformat
+from botplug import hook
+from botplug.util import timeformat
 
 TWITTER_RE = re.compile(
     r"(?:(?:www.twitter.com|twitter.com)/(?:[-_a-zA-Z0-9]+)/status/)([0-9]+)",

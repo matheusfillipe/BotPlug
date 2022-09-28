@@ -7,8 +7,8 @@ from time import time
 from sqlalchemy import Table, Column, String, Integer, PrimaryKeyConstraint, desc
 from sqlalchemy.sql import select
 
-from cloudbot import hook
-from cloudbot.util import database, web
+from botplug import hook
+from botplug.util import database, web
 
 duck = [" ε=ε=ε=ε=ε=┌(；　・＿・)┘ ", " ε=ε=ε=ε=ε=ε=┌(๑ʘ∀ʘ)┘ ", " ===≡≡≡｡ﾟ┌(ﾟ´Д`ﾟ)┘ﾟ｡ ", " ・・・・・・・ᕕ(╯°□°)ᕗ "]
 duck_tail = ["[¬º-°]¬", "(▼皿▼)", "←~∋(｡Ψ▼ｰ▼)∈", "∋━━o(｀∀´oメ）～→", "(˼●̙̂ ̟ ̟̎ ̟ ̘●̂˻)", "(;´༎ຶД༎ຶ`)", "(((༼•̫͡•༽)))",

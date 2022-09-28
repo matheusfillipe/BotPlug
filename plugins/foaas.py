@@ -4,7 +4,7 @@ from typing import Dict, List
 
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 BASE_URL = "http://www.foaas.com/{fuck}/{target}"
 

@@ -3,8 +3,8 @@ import re
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util import formatting, web
+from botplug import hook
+from botplug.util import formatting, web
 
 shortcuts = {}
 url_re = re.compile(
@@ -14,12 +14,12 @@ url_re = re.compile(
 
 def parse_url(url):
     """
-    >>> parse_url("https://github.com/TotallyNotRobots/CloudBot/")
-    ('TotallyNotRobots', 'CloudBot')
-    >>> parse_url("TotallyNotRobots/CloudBot/")
-    ('TotallyNotRobots', 'CloudBot')
-    >>> parse_url("TotallyNotRobots/CloudBot")
-    ('TotallyNotRobots', 'CloudBot')
+    >>> parse_url("https://github.com/TotallyNotRobots/BotPlug/")
+    ('TotallyNotRobots', 'BotPlug')
+    >>> parse_url("TotallyNotRobots/BotPlug/")
+    ('TotallyNotRobots', 'BotPlug')
+    >>> parse_url("TotallyNotRobots/BotPlug")
+    ('TotallyNotRobots', 'BotPlug')
     """
     match = url_re.match(url)
     return match.group("owner"), match.group("repo")

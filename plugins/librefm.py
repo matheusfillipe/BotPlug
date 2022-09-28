@@ -4,8 +4,8 @@ from typing import List, Tuple
 import requests
 from sqlalchemy import Column, PrimaryKeyConstraint, String, Table
 
-from cloudbot import hook
-from cloudbot.util import database, timeformat, web
+from botplug import hook
+from botplug.util import database, timeformat, web
 
 api_url = "https://libre.fm/2.0/?format=json"
 

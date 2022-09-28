@@ -8,10 +8,10 @@ import requests
 from requests import HTTPError
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.util import colors, formatting, timeformat
-from cloudbot.util.formatting import pluralize_auto
-from cloudbot.util.pager import CommandPager, paginated_list
+from botplug import hook
+from botplug.util import colors, formatting, timeformat
+from botplug.util.formatting import pluralize_auto
+from botplug.util.pager import CommandPager, paginated_list
 
 search_pages: Dict[str, Dict[str, CommandPager]] = defaultdict(dict)
 user_re = re.compile(r"^(?:/?(?:u(?:ser)?/)?)?(?P<name>.+?)/?$", re.IGNORECASE)

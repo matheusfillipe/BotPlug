@@ -2,7 +2,7 @@ from typing import Optional
 
 from cleverwrap import CleverWrap
 
-from cloudbot import hook
+from botplug import hook
 
 
 class APIContainer:

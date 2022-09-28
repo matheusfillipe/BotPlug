@@ -11,9 +11,9 @@ import re
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util import formatting, web
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util import formatting, web
+from botplug.util.http import parse_soup
 
 import ety
 

@@ -5,9 +5,9 @@ from typing import Any, Dict
 
 from sqlalchemy import Float, String, and_, column, select, table
 
-from cloudbot import hook
-from cloudbot.util.database import metadata
-from cloudbot.util.textgen import TextGenerator
+from botplug import hook
+from botplug.util.database import metadata
+from botplug.util.textgen import TextGenerator
 
 hookups: Dict[str, Any] = {}
 

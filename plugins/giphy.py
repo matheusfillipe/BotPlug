@@ -2,7 +2,7 @@ import random
 
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 api_url = "http://api.giphy.com/v1/gifs"
 

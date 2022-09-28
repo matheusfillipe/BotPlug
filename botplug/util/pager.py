@@ -1,8 +1,8 @@
 from threading import RLock
 from typing import List, Tuple
 
-from cloudbot.util.formatting import chunk_str
-from cloudbot.util.sequence import chunk_iter
+from botplug.util.formatting import chunk_str
+from botplug.util.sequence import chunk_iter
 
 
 class Pager:

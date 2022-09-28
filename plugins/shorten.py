@@ -1,5 +1,5 @@
-from cloudbot import hook
-from cloudbot.util import web
+from botplug import hook
+from botplug.util import web
 
 
 @hook.command()

@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 import requests
 from lxml import html
 
-from cloudbot import hook
-from cloudbot.util.queue import Queue
+from botplug import hook
+from botplug.util.queue import Queue
 
 results_queue = Queue()
 

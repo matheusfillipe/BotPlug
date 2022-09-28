@@ -7,8 +7,8 @@ from requests import HTTPError
 from requests.auth import HTTPBasicAuth
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 spotify_re = re.compile(
     r"(spotify:(track|album|artist|user):([a-zA-Z0-9]+))", re.I

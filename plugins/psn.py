@@ -8,8 +8,8 @@ from typing import List
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
 
-from cloudbot import hook
-from cloudbot.util import queue
+from botplug import hook
+from botplug.util import queue
 
 BASE_URL = "https://store.playstation.com/"
 LANG = 'en-us'

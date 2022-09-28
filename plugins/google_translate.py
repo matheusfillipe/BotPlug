@@ -1,7 +1,7 @@
 import requests
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 max_length = 100
 

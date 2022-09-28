@@ -1,5 +1,5 @@
 import cloudbot.util.filesize as fs
-from cloudbot.util.filesize import size, si, verbose
+from botplug.util.filesize import size, si, verbose
 
 
 def test_size():

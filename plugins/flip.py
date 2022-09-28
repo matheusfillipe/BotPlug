@@ -1,8 +1,8 @@
 import random
 from typing import Dict, Optional
 
-from cloudbot import hook
-from cloudbot.util import formatting
+from botplug import hook
+from botplug.util import formatting
 
 FIXED_TABLE = "\u252c\u2500\u252c\u30ce(\u0ca0_\u0ca0\u30ce)"
 

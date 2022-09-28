@@ -4,9 +4,9 @@ from typing import Dict, Union
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util.http import parse_soup
-from cloudbot.util.timeparse import time_parse
+from botplug import hook
+from botplug.util.http import parse_soup
+from botplug.util.timeparse import time_parse
 
 search_url = "http://dragonvale.wikia.com/api/v1/Search/list"
 

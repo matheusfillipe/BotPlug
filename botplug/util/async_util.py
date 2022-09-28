@@ -9,7 +9,7 @@ from asyncio.tasks import Task
 from functools import partial
 from typing import List
 
-from cloudbot.util.func_utils import call_with_args
+from botplug.util.func_utils import call_with_args
 
 try:
     _asyncio_get_tasks = getattr(asyncio, "all_tasks")

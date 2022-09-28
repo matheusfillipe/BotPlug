@@ -24,8 +24,8 @@ import re
 import urllib.parse
 from typing import Dict, List
 
-from cloudbot import hook
-from cloudbot.util import colors, formatting, web
+from botplug import hook
+from botplug.util import colors, formatting, web
 
 COLORS = collections.OrderedDict(
     [

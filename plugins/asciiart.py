@@ -13,7 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 
 if __name__ != '__main__':
-    from cloudbot import hook
+    from botplug import hook
 
 URL = "https://www.asciiart.eu"
 FILE = "plugins/asciiart.json"

@@ -6,9 +6,9 @@ from typing import Dict
 
 from sqlalchemy import Column, String, Table, and_
 
-from cloudbot import hook
-from cloudbot.util import database
-from cloudbot.util.pager import CommandPager, paginated_list
+from botplug import hook
+from botplug.util import database
+from botplug.util.pager import CommandPager, paginated_list
 
 category_re = r"[A-Za-z0-9]+"
 data_re = re.compile(r"({})\s(.+)".format(category_re))

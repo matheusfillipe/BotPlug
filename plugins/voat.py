@@ -19,8 +19,8 @@ import re
 import isodate
 import requests
 
-from cloudbot import hook
-from cloudbot.util import timeformat, formatting
+from botplug import hook
+from botplug.util import timeformat, formatting
 
 voat_re = re.compile(r'.*(((www\.)?voat\.co/v)[^ ]+)', re.I)
 

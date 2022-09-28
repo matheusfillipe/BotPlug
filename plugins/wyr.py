@@ -13,7 +13,7 @@ Special Thanks:
 License:
     BSD 3-Clause License
 """
-from cloudbot import hook
+from botplug import hook
 
 
 @hook.command("wyr", "wouldyourather", autohelp=False)

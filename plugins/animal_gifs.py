@@ -4,8 +4,8 @@ All GIFs courtesy of http://bestanimations.com/
 import random
 from urllib.parse import urljoin
 
-from cloudbot import hook
-from cloudbot.util.http import get_soup
+from botplug import hook
+from botplug.util.http import get_soup
 
 BASE_URL = "http://bestanimations.com/Animals/Mammals/Dogs/"
 DOG_PAGES = (

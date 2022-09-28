@@ -2,7 +2,7 @@ import json
 import random
 from typing import Dict, List
 
-from cloudbot import hook
+from botplug import hook
 
 deal_with_it_phrases = [
     "Stop complaining, \x02{}\x02, and",

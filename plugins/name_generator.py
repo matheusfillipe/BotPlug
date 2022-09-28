@@ -12,8 +12,8 @@ License:
 
 import json
 
-from cloudbot import hook
-from cloudbot.util import formatting, textgen
+from botplug import hook
+from botplug.util import formatting, textgen
 
 
 def get_generator(_json):

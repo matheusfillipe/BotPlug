@@ -17,7 +17,7 @@ import os
 import re
 import subprocess
 
-from cloudbot import hook
+from botplug import hook
 
 unix_ping_regex = re.compile(r"(\d+.\d+)/(\d+.\d+)/(\d+.\d+)/(\d+.\d+)")
 win_ping_regex = re.compile(

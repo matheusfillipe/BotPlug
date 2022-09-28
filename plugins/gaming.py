@@ -12,7 +12,7 @@ License:
 import random
 import re
 
-from cloudbot import hook
+from botplug import hook
 
 whitespace_re = re.compile(r"\s+")
 valid_diceroll = re.compile(

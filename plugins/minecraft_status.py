@@ -2,7 +2,7 @@ import json
 
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 
 @hook.command(autohelp=False)

@@ -1,6 +1,6 @@
 import random
 
-from cloudbot import hook
+from botplug import hook
 
 balls = ["(_)_)", "8", "B", "(___)__)", "(_)(_)", "(@)@)", "3"]
 shaft = [

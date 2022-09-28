@@ -50,7 +50,7 @@ import warnings
 from html.parser import HTMLParser
 from typing import Dict
 
-from cloudbot.util.colors import strip_irc
+from botplug.util.colors import strip_irc
 
 # Constants
 

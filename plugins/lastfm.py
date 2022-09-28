@@ -7,9 +7,9 @@ from typing import Dict
 import requests
 from sqlalchemy import Column, PrimaryKeyConstraint, String, Table
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util import database, timeformat, web
+from botplug import hook
+from botplug.bot import bot
+from botplug.util import database, timeformat, web
 
 api_url = "http://ws.audioscrobbler.com/2.0/?format=json"
 

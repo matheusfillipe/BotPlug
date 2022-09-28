@@ -5,8 +5,8 @@ import time
 import requests
 import random
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 # Define some constants
 base_url = "https://maps.googleapis.com/maps/api/"

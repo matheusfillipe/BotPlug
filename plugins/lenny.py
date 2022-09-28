@@ -2,7 +2,7 @@ import json
 import random
 from typing import Dict, List
 
-from cloudbot import hook
+from botplug import hook
 
 lenny_data: Dict[str, List[str]] = {}
 

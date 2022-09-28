@@ -5,10 +5,10 @@ from typing import Dict, List
 
 from sqlalchemy import Column, PrimaryKeyConstraint, String, Table, and_
 
-from cloudbot import hook
-from cloudbot.util import colors, database, web
-from cloudbot.util.formatting import gen_markdown_table, get_text_list
-from cloudbot.util.web import NoPasteException
+from botplug import hook
+from botplug.util import colors, database, web
+from botplug.util.formatting import gen_markdown_table, get_text_list
+from botplug.util.web import NoPasteException
 
 # below is the default factoid in every channel you can modify it however you like
 default_dict = {"commands": "https://snoonet.org/gonzobot"}

@@ -2,9 +2,9 @@ import random
 
 import requests
 
-from cloudbot import hook
-from cloudbot.bot import CloudBot
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.bot import BotPlug
+from botplug.util.http import parse_soup
 
 search_url = "https://www.dogpile.com/search"
 
@@ -18,7 +18,7 @@ session = requests.Session()
 
 
 @hook.on_start()
-def check_certs(bot: CloudBot):
+def check_certs(bot: BotPlug):
     try:
         with requests.get(search_url):
             pass

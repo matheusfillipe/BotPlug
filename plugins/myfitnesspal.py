@@ -5,8 +5,8 @@ from typing import Dict, List
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util.http import parse_soup
 
 scrape_url = "http://www.myfitnesspal.com/food/diary/{}"
 

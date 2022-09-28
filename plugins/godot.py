@@ -8,7 +8,7 @@ import requests
 from gazpacho import Soup, get
 from PIL import Image
 
-from cloudbot import hook
+from botplug import hook
 
 
 @hook.command(autohelp=False)

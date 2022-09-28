@@ -1,4 +1,4 @@
-from cloudbot import hook
+from botplug import hook
 
 # Messages
 NO_MODE = "Mode character {char!r} does not seem to exist on this network."

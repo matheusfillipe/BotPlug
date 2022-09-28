@@ -5,8 +5,8 @@ from datetime import datetime
 import requests
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.util import timeformat, formatting
+from botplug import hook
+from botplug.util import timeformat, formatting
 
 reddit_re = re.compile(
     r"""

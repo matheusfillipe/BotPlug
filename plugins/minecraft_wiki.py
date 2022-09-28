@@ -4,8 +4,8 @@ from urllib.parse import quote
 import requests
 from lxml import html
 
-from cloudbot import hook
-from cloudbot.util import formatting
+from botplug import hook
+from botplug.util import formatting
 
 api_url = "http://minecraft.gamepedia.com/api.php?action=opensearch"
 mc_url = "http://minecraft.gamepedia.com/"

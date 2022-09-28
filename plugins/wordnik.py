@@ -7,10 +7,10 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple, cast
 
 import requests
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util import colors, web
-from cloudbot.util.http import GetParams
+from botplug import hook
+from botplug.bot import bot
+from botplug.util import colors, web
+from botplug.util.http import GetParams
 
 logger = logging.getLogger("cloudbot")
 

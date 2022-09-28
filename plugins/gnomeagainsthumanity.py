@@ -3,7 +3,7 @@ import random
 import re
 from typing import Dict, List
 
-from cloudbot import hook
+from botplug import hook
 
 gnomecards: Dict[str, List[str]] = {}
 

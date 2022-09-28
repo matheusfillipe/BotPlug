@@ -3,7 +3,7 @@ import urllib.parse
 
 from gazpacho import Soup, get
 
-from cloudbot import hook
+from botplug import hook
 
 API_ARCH = "https://wiki.archlinux.org/index.php?profile=default&fulltext=Search&search="
 API_GENTOO = "https://wiki.gentoo.org/index.php?profile=default&fulltext=Search&search="

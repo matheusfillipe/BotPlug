@@ -2,8 +2,8 @@ import re
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util.http import parse_soup
 
 fml_cache = []
 

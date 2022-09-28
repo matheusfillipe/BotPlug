@@ -1,3 +1,12 @@
+from typing import Callable, List
+from dataclasses import dataclass
+
+@dataclass
+class Command:
+    hook: Callable
+    commands: List[str]
+
+
 on_start_hooks = []
 def on_start(param=None, **kwargs):
     """External on_start decorator. Can be used directly as a decorator, or with args to return a decorator"""
@@ -18,7 +27,8 @@ def command(*args, **kwargs):
     """External command decorator. Can be used directly as a decorator, or with args to return a decorator."""
 
     def _command_hook(func, alias_param=None):
-        commands.append(func)
+        name = func.__name__
+        commands.append(Command(func, [name]))
         return func
 
     if len(args) == 1 and callable(args[0]):

@@ -3,7 +3,7 @@ import re
 import requests
 from thefuzz import fuzz
 
-from cloudbot import hook
+from botplug import hook
 
 API = "https://blackbeardapi.herokuapp.com/"
 

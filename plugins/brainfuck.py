@@ -4,7 +4,7 @@ http://brainfuck.sourceforge.net/brain.py"""
 import random
 import re
 
-from cloudbot import hook
+from botplug import hook
 
 BUFFER_SIZE = 5000
 MAX_STEPS = 1000000

@@ -2,7 +2,7 @@
 
 from random import choice
 
-from cloudbot import hook
+from botplug import hook
 
 SENTENCES = [
     "Leaves a dump on {}'s head",

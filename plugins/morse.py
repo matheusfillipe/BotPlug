@@ -1,4 +1,4 @@
-from cloudbot import hook
+from botplug import hook
 import unidecode
 
 # Stolen from https://www.geeksforgeeks.org/morse-code-translator-python/

@@ -4,12 +4,12 @@ import socket
 import logging
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 URL = "https://json.geoiplookup.io/{}"
 
 @hook.command
-def geoip(text, loop, reply):
+def geoip(text, reply):
     """<host|ip> - Looks up the physical location of <host|ip> using Maxmind GeoLite """
     if re.match(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", text):
         ip = text

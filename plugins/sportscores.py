@@ -2,9 +2,9 @@ import re
 from collections import defaultdict
 from typing import Dict
 
-from cloudbot import hook
-from cloudbot.util import http
-from cloudbot.util.pager import CommandPager, paginated_list
+from botplug import hook
+from botplug.util import http
+from botplug.util.pager import CommandPager, paginated_list
 
 search_pages: Dict[str, Dict[str, CommandPager]] = defaultdict(dict)
 

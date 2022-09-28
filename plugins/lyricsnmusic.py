@@ -3,8 +3,8 @@ import re
 from chartlyrics import ChartLyricsClient
 from chartlyrics.lyrics import Strophe
 
-from cloudbot import hook
-from cloudbot.util.queue import Queue
+from botplug import hook
+from botplug.util.queue import Queue
 
 results_queue = Queue()
 poped3 = Queue()

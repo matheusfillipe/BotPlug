@@ -1,5 +1,5 @@
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 import os
 
 api_key = bot.config.get_api_key("openwheater")

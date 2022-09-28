@@ -22,9 +22,9 @@ import requests
 from requests import Response
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.util import colors, web
-from cloudbot.util.func_utils import call_with_args
+from botplug import hook
+from botplug.util import colors, web
+from botplug.util.func_utils import call_with_args
 
 
 class APIError(Exception):

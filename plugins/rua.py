@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from cloudbot import hook
+from botplug import hook
 
 
 @hook.command('ruad', 'rud', 'ruadick')

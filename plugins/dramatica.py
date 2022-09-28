@@ -5,8 +5,8 @@ import requests
 from lxml import html
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util import formatting
+from botplug import hook
+from botplug.util import formatting
 
 api_url = "http://encyclopediadramatica.se/api.php"
 ed_url = "http://encyclopediadramatica.se/"

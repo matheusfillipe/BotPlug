@@ -15,7 +15,7 @@ from base64 import (
 )
 from hashlib import blake2b, blake2s, md5, sha1, sha224, sha256, sha384, sha512
 
-from cloudbot import hook
+from botplug import hook
 
 
 def compute_hash(text: str, hash_func) -> str:

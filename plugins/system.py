@@ -3,9 +3,9 @@ import platform
 import time
 from datetime import timedelta
 
-import cloudbot
-from cloudbot import hook
-from cloudbot.util.filesize import size as format_bytes
+import botplug
+from botplug import hook
+from botplug.util.filesize import size as format_bytes
 
 try:
     import psutil
@@ -15,14 +15,14 @@ except ImportError:
 
 @hook.command(autohelp=False)
 def about(text, conn, bot):
-    """- Gives information about CloudBot. Use .about license for licensing information"""
+    """- Gives information about BotPlug. Use .about license for licensing information"""
     if text.lower() in ("license", "gpl", "source"):
         return (
-            "CloudBot Refresh is released under the GPL v3 license, get the source code "
+            "BotPlug Refresh is released under the GPL v3 license, get the source code "
             "at {}".format(bot.repo_link)
         )
 
-    return "{} is powered by CloudBot Refresh! ({}) - {}".format(
+    return "{} is powered by BotPlug Refresh! ({}) - {}".format(
         conn.nick, cloudbot.__version__, bot.repo_link
     )
 
@@ -74,6 +74,6 @@ def sauce(bot):
     """- Returns a link to the source"""
     return (
         "Check out my source code! I am a fork of cloudbot: "
-        "https://github.com/CloudBotIRC/CloudBot/ and my source is here: "
+        "https://github.com/BotPlugIRC/BotPlug/ and my source is here: "
         "{}".format(bot.repo_link)
     )

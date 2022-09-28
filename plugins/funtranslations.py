@@ -4,8 +4,8 @@ from base64 import b64decode
 import requests
 import io
 
-from cloudbot.bot import bot
-from cloudbot import hook
+from botplug.bot import bot
+from botplug import hook
 
 API = "https://api.funtranslations.com/translate"
 

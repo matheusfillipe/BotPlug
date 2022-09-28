@@ -1,6 +1,6 @@
 # Get range of pi digits
 import requests
-from cloudbot import hook
+from botplug import hook
 
 API = "https://api.pi.delivery/v1/pi"
 MAX_DIGITS = 400

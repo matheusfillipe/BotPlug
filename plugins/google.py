@@ -1,8 +1,8 @@
 import requests
 import random
 
-from cloudbot.util import http, formatting
-from cloudbot import hook
+from botplug.util import http, formatting
+from botplug import hook
 
 
 def api_get(kind, query):

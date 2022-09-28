@@ -13,8 +13,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from cloudbot import hook
-from cloudbot.util.queue import Queue
+from botplug import hook
+from botplug.util.queue import Queue
 
 
 class Config:

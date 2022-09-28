@@ -4,8 +4,8 @@ from collections import defaultdict
 from enum import Enum, unique
 from typing import Any, Dict
 
-from cloudbot import hook
-from cloudbot.util import textgen
+from botplug import hook
+from botplug.util import textgen
 
 
 @unique

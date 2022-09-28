@@ -7,9 +7,9 @@ from typing import Dict, List, Tuple
 from sqlalchemy import Column, String, Table
 from sqlalchemy.exc import SQLAlchemyError
 
-from cloudbot import hook
-from cloudbot.util import database
-from cloudbot.util.pager import CommandPager, paginated_list
+from botplug import hook
+from botplug.util import database
+from botplug.util.pager import CommandPager, paginated_list
 
 search_pages: Dict[str, Dict[str, CommandPager]] = defaultdict(dict)
 

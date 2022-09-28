@@ -19,7 +19,7 @@ from typing import Dict, List
 
 import nltk
 
-from cloudbot import hook
+from botplug import hook
 
 pronunciations: Dict[str, List[List[str]]] = {}
 

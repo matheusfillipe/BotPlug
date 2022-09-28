@@ -17,8 +17,8 @@ from sqlalchemy import (
 )
 from sqlalchemy.sql import select
 
-from cloudbot import hook
-from cloudbot.util import database
+from botplug import hook
+from botplug.util import database
 
 table = Table(
     "notes",

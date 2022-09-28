@@ -2,9 +2,9 @@ import re
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util import web
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util import web
+from botplug.util.http import parse_soup
 
 try:
     import cfscrape

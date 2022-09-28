@@ -18,7 +18,7 @@ import urllib.parse
 
 from bs4 import BeautifulSoup
 
-from cloudbot import hook
+from botplug import hook
 
 DEGREE_SYMBOL = "F"
 

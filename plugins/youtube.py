@@ -6,10 +6,10 @@ import requests
 from youtube_search import YoutubeSearch
 from youtubesearchpython import Transcript, Video
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util import colors, timeformat
-from cloudbot.util.formatting import pluralize_suffix
+from botplug import hook
+from botplug.bot import bot
+from botplug.util import colors, timeformat
+from botplug.util.formatting import pluralize_suffix
 
 youtube_re = re.compile(
     r"(?:youtube.*?(?:v=|/v/)|youtu\.be/|yooouuutuuube.*?id=)([-_a-zA-Z0-9]+)",

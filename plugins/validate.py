@@ -2,8 +2,8 @@ import urllib.parse
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util import web
+from botplug import hook
+from botplug.util import web
 
 api_url = "https://validator.w3.org/check"
 

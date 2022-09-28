@@ -6,7 +6,7 @@ import logging
 
 from dictcc import AVAILABLE_LANGUAGES, Dict
 
-from cloudbot import hook
+from botplug import hook
 
 next_msg = "  ----- Type `.tn` for more translations"
 logger = logging.getLogger("cloudbot")

@@ -3,9 +3,9 @@ import requests
 from sqlalchemy import Column, String, Table, select
 from yarl import URL
 
-from cloudbot import hook
-from cloudbot.util import colors, database
-from cloudbot.util.http import parse_soup
+from botplug import hook
+from botplug.util import colors, database
+from botplug.util.http import parse_soup
 
 table = Table(
     "horoscope",

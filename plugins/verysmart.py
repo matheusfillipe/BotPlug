@@ -1,7 +1,7 @@
 import random
 from typing import List
 
-from cloudbot import hook
+from botplug import hook
 
 vsquotes: List[str] = []
 

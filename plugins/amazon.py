@@ -4,8 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util import web, formatting, colors
+from botplug import hook
+from botplug.util import web, formatting, colors
 
 SEARCH_URL = "http://www.amazon.{}/s/"
 REGION = "com"

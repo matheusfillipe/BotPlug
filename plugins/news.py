@@ -10,10 +10,10 @@ import feedparser
 from bs4 import BeautifulSoup
 from newsapi import NewsApiClient, const
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util.formatting import truncate
-from cloudbot.util.queue import Queue
+from botplug import hook
+from botplug.bot import bot
+from botplug.util.formatting import truncate
+from botplug.util.queue import Queue
 
 fakenews_feeds = [
     "http://www.theonion.com/feeds/rss",

@@ -6,9 +6,9 @@
 import mwparserfromhell
 from mediawiki import MediaWiki, exceptions
 
-from cloudbot import hook
-from cloudbot.util import formatting
-from cloudbot.util.queue import Queue
+from botplug import hook
+from botplug.util import formatting
+from botplug.util.queue import Queue
 
 # List of wikis and their API's
 # The key is a tuple starting with the wiki name all those values will be used as the bot commands.

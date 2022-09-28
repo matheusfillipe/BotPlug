@@ -1,15 +1,15 @@
 import random
 from typing import List
 
-from cloudbot import hook
-from cloudbot.bot import CloudBot
-from cloudbot.util import colors
+from botplug import hook
+from botplug.bot import BotPlug
+from botplug.util import colors
 
 responses: List[str] = []
 
 
 @hook.on_start()
-def load_responses(bot: CloudBot) -> None:
+def load_responses(bot: BotPlug) -> None:
     path = bot.data_path / "8ball_responses.txt"
     responses.clear()
     with open(path, encoding="utf-8") as f:

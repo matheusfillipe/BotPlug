@@ -14,9 +14,9 @@ from urllib.parse import urlparse
 
 import requests
 
-import cloudbot
-from cloudbot import hook
-from cloudbot.bot import bot
+import botplug
+from botplug import hook
+from botplug.bot import bot
 
 API_SB = "https://sb-ssl.google.com/safebrowsing/api/lookup"
 

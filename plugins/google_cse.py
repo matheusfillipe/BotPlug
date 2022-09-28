@@ -13,9 +13,9 @@ License:
 
 import requests
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util import filesize, formatting
+from botplug import hook
+from botplug.bot import bot
+from botplug.util import filesize, formatting
 
 API_CS = "https://www.googleapis.com/customsearch/v1"
 

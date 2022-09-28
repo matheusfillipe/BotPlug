@@ -10,7 +10,7 @@ from typing import List
 import requests
 from bs4 import BeautifulSoup, Tag
 
-from cloudbot import hook
+from botplug import hook
 
 BASE_URL = "https://www.tiobe.com"
 TABLE_URL = f"{BASE_URL}/tiobe-index/"

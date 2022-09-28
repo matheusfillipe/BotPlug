@@ -5,9 +5,9 @@ from typing import Match, Optional
 
 from imgurpython import ImgurClient
 
-from cloudbot import hook
-from cloudbot.bot import bot
-from cloudbot.util import web
+from botplug import hook
+from botplug.bot import bot
+from botplug.util import web
 
 # imgurpython has an issue where it does not allow anonymous album creation
 # to fix this we monkeypatch logged_in to disable login checking

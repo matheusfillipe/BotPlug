@@ -3,7 +3,7 @@ import urllib.parse
 
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 API = "https://api.datamuse.com/words?"
 MAX_DISPLAY_WORDS = 20

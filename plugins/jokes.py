@@ -2,7 +2,7 @@ import random
 from pathlib import Path
 from typing import List
 
-from cloudbot import hook
+from botplug import hook
 
 joke_lines = {}
 

@@ -2,9 +2,9 @@ from typing import Dict
 
 import requests
 
-from cloudbot import hook
-from cloudbot.util import formatting
-from cloudbot.util.http import parse_xml
+from botplug import hook
+from botplug.util import formatting
+from botplug.util.http import parse_xml
 
 API_URL = "http://steamcommunity.com/id/{}/"
 ID_BASE = 76561197960265728

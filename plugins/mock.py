@@ -1,4 +1,4 @@
-from cloudbot import hook
+from botplug import hook
 
 
 def get_latest_line(conn, chan, nick):

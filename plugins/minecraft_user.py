@@ -5,7 +5,7 @@ import uuid
 
 import requests
 
-from cloudbot import hook
+from botplug import hook
 
 HIST_API = "http://api.fishbans.com/history/{}"
 UUID_API = "http://api.goender.net/api/uuids/{}/"

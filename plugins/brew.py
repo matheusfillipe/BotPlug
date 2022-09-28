@@ -1,8 +1,8 @@
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.bot import bot
+from botplug import hook
+from botplug.bot import bot
 
 api_url = "http://api.brewerydb.com/v2/search?format=json"
 

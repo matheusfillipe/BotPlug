@@ -1,8 +1,8 @@
 import requests
 from requests import HTTPError
 
-from cloudbot import hook
-from cloudbot.util import web
+from botplug import hook
+from botplug.util import web
 
 api_url = "https://translate.yandex.net/api/v1.5/tr.json/"
 
